@@ -1,6 +1,6 @@
 # Dog API Assignment (part 3)
 
-# [LIVE APP](https://cabagnale.github.io/DogApp3/)
+# [LIVE APP](https://cabagnale.github.io/DogApp3/index.html)
 
 ## About
 
