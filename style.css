@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: white;
+  text-shadow: 3px 2px rgba(156, 156, 156, 0.301);
+}
+  
+h1 {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-size: 25px;
+  text-align: center;
+}
+
+form {
+  margin-top: 5vh;
+  max-width: 440px;
+}
+
+label {
+  font-size: 20px;
+  text-align: left;
+}
+
+input {
+  content: 'Second line text'; /* Text for second line of button */
+  display: block; /* Puts this text on its own line */
+  font-size: 20px;
+  margin-top: 5px; /* Add distance from first line of text */
+  font-weight: normal; /* Remove bold style */
+  line-height: 2;
+  height: 50px;
+  width: 100%;
+  border: 4px solid rgba(201, 200, 200, 0.836);
+  border-radius: 5px;
+  background-color: rgba(243, 236, 228, 0.836);
+  padding: 0 10px 0;
+}
+  
+input:hover {
+  border: 4px solid white;
+  border-radius: 5px;
+}
+
+#breed-display {
+  text-transform: uppercase;
+  text-align: center;
+}
+  
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  
+.hidden {
+  display: none;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  
+.results-img {
+  display: block;
+  margin: 10px 0 10px;
+}
+  

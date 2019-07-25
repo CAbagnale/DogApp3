@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doge App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+          <fieldset>
+            <legend>Doge App</legend>
+            <p>
+              Please type a dog breed below to display one random image of that breed.
+            </p>
+            <p>
+              <label for="breed">Breed:</label>
+              <input type="text" id="breed" name="breed" placeholder="example: hound">
+            </p>
+            <p>
+              <input class="submit-button" type="submit" value="submit">
+            </p>
+          </fieldset>
+        </form>
+        <section class="results hidden">
+          <h2 id="breed-display"></h2>
+          <div id="images" class="images">
+          </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
